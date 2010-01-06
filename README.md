@@ -1,5 +1,7 @@
 Sprouts Library to use the Swift Suspenders
 ===========================================
+Fetches and installs http://github.com/tschneidereit/SwiftSuspenders release version
+
 
 Add Swiftsuspenders Source to your Sprouts Project Model
 
