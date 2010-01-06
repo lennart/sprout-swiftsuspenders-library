@@ -6,7 +6,7 @@ name = File.basename(__FILE__).split('.').shift
 
 gem_wrap name do |t|
   # version is a dot-delimited, 3 digit version string
-  t.version       = '0.0.0'
+  t.version       = '0.0.1'
   # Short summary of your library or project
   t.summary       = "Gimme the Swiftsuspenders"
   # Your name
@@ -28,9 +28,7 @@ gem_wrap name do |t|
   t.sprout_spec   =<<EOF
 - !ruby/object:Sprout::RemoteFileTarget 
   platform: universal
-  archive_type: targz
-  filename: swiftsuspenders-1.0.0.zip
-  url: http://github.com/tschneidereit/SwiftSuspenders/tarball/1.0.0 
+  url: http://cloud.github.com/downloads/tschneidereit/SwiftSuspenders/SwiftSuspenders-v1.0.1.zip
   archive_path: src 
 EOF
 end
